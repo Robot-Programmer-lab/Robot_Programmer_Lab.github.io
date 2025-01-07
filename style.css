@@ -1,0 +1,46 @@
+body
+{
+  background: url("bg.webp")
+
+}
+
+.first_text{
+  color: yellow;
+  border-style: solid; /* вид рамки */
+  border-width: 0px; /* толщина рамки */
+  background-color: chocolate;
+  padding: 3px; /* расстояние от рамки до текста */  
+  border-radius: 10px;
+
+  font-size: 50px;
+  
+}
+
+.second_text{  
+  color:black;
+  border-style: solid; /* вид рамки */
+  border-width: 0px; /* толщина рамки */
+  
+  padding: 3px; /* расстояние от рамки до текста */
+  background: linear-gradient(burlywood, chocolate);
+
+  border-radius: 10px;
+
+  font-size: 40px;
+}
+
+.header{
+  background: linear-gradient(orange, chocolate);
+  color: red; 
+  font-size: 30px;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 10px;
+}
+
+a{
+  text-decoration: none;
+  margin: 30px;
+}
