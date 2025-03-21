@@ -1,0 +1,46 @@
+body
+{
+  background: url("bg.jpg")
+
+}
+
+.first_text{
+  color: rgb(255, 255, 255);
+  border-style: solid; /* вид рамки */
+  border-width: 0px; /* толщина рамки */
+  background-color: rgb(2, 166, 247);
+  padding: 3px; /* расстояние от рамки до текста */  
+  border-radius: 10px;
+
+  font-size: 40px;
+  
+}
+
+.second_text{  
+
+  border-style: solid; /* вид рамки */
+  border-width: 0px; /* толщина рамки */
+  
+  padding: 3px; /* расстояние от рамки до текста */
+  /*background: rgb(2, 166, 247);*/
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  
+  font-size: 30px;
+}
+
+.header{
+  background: rgb(2, 166, 247);
+  color: rgb(0, 0, 0); 
+  font-size: 30px;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 10px;
+}
+
+a{
+  text-decoration: none;
+  margin: 30px;
+}
